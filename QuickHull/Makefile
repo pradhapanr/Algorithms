@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -std=c99 -pedantic -Wall
 
-all: QuickHull
+all: quick_hull
 
-QuickHull:
-	$(CC) $(CFLAGS) QuickHull.c list.c -o QuickHull
+quick_hull:
+	$(CC) $(CFLAGS) quick_hull.c list.c -o quick_hull
 
 clean:
-	rm QuickHull
+	rm quick_hull

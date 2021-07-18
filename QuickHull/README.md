@@ -22,7 +22,7 @@ The QuickHull algorithm takes inspiration from QuickSort by using a divide and c
 
 ### <b>Instructions for Execution</b>
 A makefile has been provided for execution of the program.
-Simply open a terminal inside the QuickHull directory and input the following command to make the QuickHull executable:
+Simply open a terminal inside the QuickHull directory and input the following command to make the quick_hull executable:
 
 ````
 make all
@@ -31,7 +31,7 @@ make all
 To run the program, a file must be passed in as an argument. An example text file is already in the repository if you would like to see a demo. This is done with the command:
 
 ````
-./QuickHull points.txt
+./quick_hull points.txt
 ````
 
 The program output will be all of the points that make up the convex hull for that data set.
